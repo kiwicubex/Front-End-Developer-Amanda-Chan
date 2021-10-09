@@ -110,3 +110,13 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 375px) {
+  h2,
+  p {
+    text-align: center;
+  }
+  .primary-link {
+    display: flex;
+    justify-content: center;
+  }
+}
